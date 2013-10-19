@@ -1,4 +1,0 @@
-oa
-==
-
-myown  oa  system
