@@ -3,29 +3,28 @@
     <li id="one" class="files"> <a href="#one">邮件系统</a>
       <ul class="sub-menu">
         <li><a href="<?php echo $email_inner;?>" target="taskFirst">内部邮件</a></li>
+        <li><a href="#" target="taskFirst">短信管理</a></li>
         <li><a href="<?php echo $email_outer;?>" target="taskFirst">外部邮件</a></li>
+        <li><a href="#" target="taskFirst">邮件系统报表</a></li>
       </ul>
     </li>
     <li id="two" class="mail"> <a href="#two">个人办公</a>
       <ul class="sub-menu">
         <li><a href="#">日常事务</a></li>
+        <li><a href="#">日常事务报表</a></li>
+        <li><a href="#">知识管理</a></li>
+        <li><a href="#">智能办公</a></li>
       </ul>
     </li>
-    <li id="three" class="cloud"> <a href="#three">Cloud<span>58</span></a>
+    <li id="three" class="cloud"> <a href="#three">信息管理</a>
       <ul class="sub-menu">
-        <li><a href="#"><em>01</em>Connect<span>12</span></a></li>
-        <li><a href="#"><em>02</em>Profiles<span>19</span></a></li>
-        <li><a href="#"><em>03</em>Options<span>27</span></a></li>
-        <li><a href="#"><em>04</em>Connect<span>12</span></a></li>
-        <li><a href="#"><em>05</em>Profiles<span>19</span></a></li>
-        <li><a href="#"><em>06</em>Options<span>27</span></a></li>
+        <li><a href="#">互动信息</a></li>
+        <li><a href="#">公共信息</a></li>
       </ul>
     </li>
-    <li id="four" class="sign"> <a href="#four">Sign Out</a>
+    <li id="four" class="sign"> <a href="#four">个人管理</a>
       <ul class="sub-menu">
-        <li><a href="#"><em>01</em>Log Out</a></li>
-        <li><a href="#"><em>02</em>Delete Account</a></li>
-        <li><a href="#"><em>03</em>Freeze Account</a></li>
+        <li><a href="#">个人信息</a></li>
       </ul>
     </li>
   </ul>
