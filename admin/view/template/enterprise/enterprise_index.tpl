@@ -1,21 +1,21 @@
 <div id="wrapper-250">
   <ul class="accordion">
-    <li id="one" class="files"> <a href="#one">计划管理</a>
+    <li id="one" class="files"> <a href="#one">资料管理</a>
       <ul class="sub-menu">
-        <li><a href="<?php echo $task_add;?>" target="taskFirst">我的计划</a></li>
-        <li><a href="<?php echo $task_add;?>" target="taskFirst">下属计划</a></li>
+        <li><a href="#" target="taskFirst">知识库</a></li>
+        <li><a href="#" target="taskFirst">公司管理</a></li>
       </ul>
     </li>
-    <li id="two" class="mail"> <a href="#two">任务管理</a>
+    <li id="two" class="mail"> <a href="#two">信息管理</a>
       <ul class="sub-menu">
-        <li><a href="#">我的任务</a></li>
-        <li><a href="#">下属任务</a></li>
+        <li><a href="#">公共信息</a></li>
+        <li><a href="#">招聘信息</a></li>
       </ul>
     </li>
-    <li id="three" class="cloud"> <a href="#three">报表分析</a>
+    <li id="three" class="cloud"> <a href="#three">会议管理</a>
       <ul class="sub-menu">
-        <li><a href="#">计划报表</a></li>
-        <li><a href="#">任务报表</a></li>
+        <li><a href="#">基础设置</a></li>
+        <li><a href="#">会议管理</a></li>
       </ul>
     </li>
   </ul>

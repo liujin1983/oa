@@ -22,13 +22,13 @@
 			  <a href="<?php echo $employee_index; ?>"  ><?php echo '员工门户'; ?> </a>
 		  </li>
 		  <li class="first" id="h_extension">
-			  <a href="#"  ><?php echo '企业门户'; ?></a>
+			  <a href="<?php echo $enterprise_index;?>"  ><?php echo '企业门户'; ?></a>
 		  </li>
 		  <li class="first" id="h_sale">
 			<a href="<?php echo $task_index;?>"  ><?php echo '计划任务'; ?></a>
 		  </li>
 		  <li class="first" id="h_system">
-			  <a href="<?php  echo  $task_index;?>"  <?php echo '工作流程'; ?></a>
+			  <a href="#"  <?php echo '工作流程'; ?></a>
 		  </li>
 		  <li class="first" id="h_system">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo '进销存'; ?></a>

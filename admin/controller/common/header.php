@@ -69,7 +69,7 @@ class ControllerCommonHeader extends Controller {
 			
 			$this->data['task_index'] = $this->url->link('common/home', 'token=' . $this->session->data['token'].'&path='.'task/task', 'SSL');
 			$this->data['employee_index'] = $this->url->link('common/home', 'token=' . $this->session->data['token'].'&path='.'employee/employee', 'SSL');
-			
+			$this->data['enterprise_index'] = $this->url->link('common/home', 'token=' . $this->session->data['token'].'&path='.'enterprise/enterprise', 'SSL');
 		}
 		$this->id = 'header';
 		$this->template = 'common/header.tpl';
